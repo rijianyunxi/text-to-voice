@@ -4,7 +4,6 @@ const n = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd',
 function getParams(text, per = 4118, vol = 9) {
     let once = getOnce();
     let baseUrl = "https://baike.baidu.com/wikiui/api/getaudio?"
-    console.log(once);
     let time = getTime();
     let sign = getSign(text, per, time, once);
     let e = {
@@ -28,7 +27,6 @@ function getSign(n, t, r, e) {
         s = "%Ej9&lz9*1R5O*XCSXvY6E8PlWoZ@haY",
         f = [n, o, a, r, e, s].join(""),
         h = hash(f);
-    console.log(s);
     return h
 }
 
