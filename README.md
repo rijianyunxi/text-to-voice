@@ -4,13 +4,13 @@
 
 ### 安装
 ```
-npm i textToSpeech
+npm i text-to-voice
 ```
 
 ### 使用
 
 ```
-const { getParams } = require("textToSpeech")
+const { getParams } = require("text-to-voice")
 getParams(text,person)
 // text: 转化的句子 
 //person 4106=>磁性男声，4118=>年轻女声,4100=>成熟女声，4003=>成熟男声，4115=>性感男声

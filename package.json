@@ -1,5 +1,5 @@
 {
-    "name": "textToSpeech",
+    "name": "text-to-voice",
     "version": "1.0.0",
     "description": "通过调用百度百科语音朗读的API来实现，主要做了获取此接口的sign，并返回完整的url请求路径",
     "main": "index.js",
