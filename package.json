@@ -8,5 +8,9 @@
     },
     "keywords": ["语音朗读"],
     "author": "宋金涛",
-    "license": "MIT"
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/rijianyunxi/textToSpeech.git"
+    }
 }
